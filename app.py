@@ -7,7 +7,7 @@ import asyncio
 app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
-botadaptersetting = BotFrameworkAdapterSettings("5d341f2c-08ea-4091-b171-95e88774361f","KW5KrJZ7mnxrjVDMV7Mu_-3.p8reSYNy~6")
+botadaptersetting = BotFrameworkAdapterSettings("e9041397-ce2c-496d-acc1-ba16f3e9ec5e","d_U_U9nM3e._Y3eiVW9cv2ZW_Po3IFVFnn")
 botadapter = BotFrameworkAdapter(botadaptersetting)
 
 memstore = MemoryStorage()
